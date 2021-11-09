@@ -44,3 +44,16 @@ NumPy provides us with the smartest possible solution: component by-component ta
 c = a * b 
 
 does what the previous models do, at close C velocities, however with the code effortlessness we anticipate from something dependent on Python. For sure, the NumPy maxim is significantly less complex! This last model represents two of NumPy's elements which are the premise of a lot of its power: vectorization and broadcasting.
+
+#NumPy is Faster
+Vectorization depicts the shortfall of any express circling, ordering, and so on, in the code - these things are occurring, obviously, just "in the background" in upgraded, pre-accumulated C code. Vectorized code enjoys many benefits, among which are: 
+
+vectorized code is more succinct and simpler to peruse 
+
+less lines of code by and large means less bugs 
+
+the code all the more intently looks like standard numerical documentation (making it simpler, commonly, to effectively code numerical develops) 
+
+vectorization results in additional "Pythonic" code. Without vectorization, our code would be covered with wasteful and hard to peruse for circles. 
+
+Broadcasting is the term used to depict the implied component by-component conduct of activities; for the most part talking, in NumPy all tasks, number-crunching activities, however intelligent, piece astute, practical, and so forth, act in this understood component by-component style, i.e., they broadcast. In addition, in the model over, an and b could be multidimensional varieties of a similar shape, or a scalar and a cluster, or even two varieties of with various shapes, given that the more modest exhibit is "expandable" to the state of the bigger so that the subsequent transmission is unambiguous. For itemized "rules" of broadcasting see basics.broadcasting.
