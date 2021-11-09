@@ -45,7 +45,7 @@ c = a * b
 
 does what the previous models do, at close C velocities, however with the code effortlessness we anticipate from something dependent on Python. For sure, the NumPy maxim is significantly less complex! This last model represents two of NumPy's elements which are the premise of a lot of its power: vectorization and broadcasting.
 
-# Numpy_Basic
+# Numpy_is_faster
 Vectorization depicts the shortfall of any express circling, ordering, and so on, in the code - these things are occurring, obviously, just "in the background" in upgraded, pre-accumulated C code. Vectorized code enjoys many benefits, among which are: 
 
 vectorized code is more succinct and simpler to peruse 
